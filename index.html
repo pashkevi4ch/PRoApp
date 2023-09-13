@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js"></script>
+  </head>
+  <body class="container" onload="changeColor('TaskManager');">
+    <h1 class="greet">Настя - самая лучшая девушка!</h1>
+    <div class="head">
+      <div class="upper-block">
+        <p>text</p>
+      </div>
+      <div class="upper-block">
+        <h2>Tasks</h2>
+        <ul id="TaskManager"></ul>
+        <button onclick="goTo('addTask.html')">Добавить задание</button>
+      </div>
+      <div class="upper-block">
+        <img src="pomodoro_template.webp" alt="Pomodorro timer" />
+        <p>Pomodorro timer</p>
+        <input type="time" />
+      </div>
+    </div>
+  </body>
+</html>
